@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className={styles["main-container"]}>
         <img src={pumkin} alt="" />
-        <ChangePageButton message={"Let's play"} />
+        <ChangePageButton message={"Let's play"} targetId={"new-composant"} />
       </div>
     </>
   );
