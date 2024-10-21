@@ -1,0 +1,10 @@
+button {
+  font-size: 7em;
+  color: white;
+  padding: 0 0.4em;
+  transition: color 0.5s ease, border-bottom 0.5s ease;
+}
+
+button:hover {
+  border-bottom: 0.2em solid red;
+}
